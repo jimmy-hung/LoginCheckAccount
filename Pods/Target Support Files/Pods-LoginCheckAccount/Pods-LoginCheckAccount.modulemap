@@ -1,0 +1,6 @@
+framework module Pods_LoginCheckAccount {
+  umbrella header "Pods-LoginCheckAccount-umbrella.h"
+
+  export *
+  module * { export * }
+}
