@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     var viewModel = ViewModel()
     let user = userData()
     
-     // 
+     // 但斷按鈕是否可用
     var goBtnCanUse = false {
         didSet{
             if goBtnCanUse {
