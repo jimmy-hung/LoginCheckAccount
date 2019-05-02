@@ -21,6 +21,7 @@
 		BF258FC02271AD2E006095B5 /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FBF2271AD2E006095B5 /* Moya.swift */; };
 		BF258FC22277F466006095B5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FC12277F466006095B5 /* Data.swift */; };
 		BF258FC422783112006095B5 /* ShortData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FC322783112006095B5 /* ShortData.swift */; };
+		BF258FCE227A891C006095B5 /* Data2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FCD227A891C006095B5 /* Data2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		BF258FBF2271AD2E006095B5 /* Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
 		BF258FC12277F466006095B5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		BF258FC322783112006095B5 /* ShortData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortData.swift; sourceTree = "<group>"; };
+		BF258FCD227A891C006095B5 /* Data2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data2.swift; sourceTree = "<group>"; };
 		D700124242633FC2A838626C /* Pods_LoginCheckAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginCheckAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				BF258FAF2270136D006095B5 /* User.swift */,
 				BF258FBF2271AD2E006095B5 /* Moya.swift */,
 				BF258FC12277F466006095B5 /* Data.swift */,
+				BF258FCD227A891C006095B5 /* Data2.swift */,
 				BF258FC322783112006095B5 /* ShortData.swift */,
 			);
 			path = Model;
@@ -273,6 +276,7 @@
 				BF258FB8227030EB006095B5 /* extension+string.swift in Sources */,
 				BF258FC02271AD2E006095B5 /* Moya.swift in Sources */,
 				BF258FC422783112006095B5 /* ShortData.swift in Sources */,
+				BF258FCE227A891C006095B5 /* Data2.swift in Sources */,
 				BF258FBC22703C95006095B5 /* SecViewController.swift in Sources */,
 				BF258FB22270180B006095B5 /* ViewModel.swift in Sources */,
 				BF258FBA227035F3006095B5 /* ViewController+TextField.swift in Sources */,

@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 struct Person: Codable {
     
     var id : Int

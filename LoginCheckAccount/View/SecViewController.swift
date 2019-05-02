@@ -40,16 +40,15 @@ class SecViewController: UIViewController {
                 // 完整
                 do {
                     let persons = try decoder.decode([Person].self, from: response.data)
-                    
-                    for i in 0 ... persons.count - 1 {
-                        
-                        print(persons[i].id, persons[i].email, persons[i].city)
-                        
+
+                    for everyone in persons {
+
+                        print(everyone.id, everyone.email, everyone.city)
                     }
-                    
                 } catch {
                     print(error)
                 }
+                
                 // 部分
 //                do {
 //                    let humans = try decoder.decode([Human].self, from: response.data)
@@ -60,6 +59,21 @@ class SecViewController: UIViewController {
 //                  print(error)
 //                }
                 
+                // 第二種寫法
+//                do {
+//
+//                    let secPerson = try decoder.decode([SecPerson].self, from: response.data)
+//
+//                    for person in secPerson {
+//                        
+//                        print("\(person.id) : \(person.name)  \(person.email)")
+//                        
+//                    }
+//                } catch {
+//
+//                    print(error)
+//                }
+
             case .failure(let error):
                 self.nextPageLb.text = "\(error)"
                 print(error)
