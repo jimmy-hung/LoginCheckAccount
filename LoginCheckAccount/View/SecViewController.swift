@@ -38,16 +38,16 @@ class SecViewController: UIViewController {
 //                self.nextPageLb.text = "\(json)"
                 
                 // 完整
-                do {
-                    let persons = try decoder.decode([Person].self, from: response.data)
-
-                    for everyone in persons {
-
-                        print(everyone.id, everyone.email, everyone.city)
-                    }
-                } catch {
-                    print(error)
-                }
+//                do {
+//                    let persons = try decoder.decode([Person].self, from: response.data)
+//
+//                    for everyone in persons {
+//
+//                        print(everyone.id, everyone.email, everyone.city)
+//                    }
+//                } catch {
+//                    print(error)
+//                }
                 
                 // 部分
 //                do {
@@ -60,19 +60,19 @@ class SecViewController: UIViewController {
 //                }
                 
                 // 第二種寫法
-//                do {
-//
-//                    let secPerson = try decoder.decode([SecPerson].self, from: response.data)
-//
-//                    for person in secPerson {
-//                        
-//                        print("\(person.id) : \(person.name)  \(person.email)")
-//                        
-//                    }
-//                } catch {
-//
-//                    print(error)
-//                }
+                do {
+
+                    let secPerson = try decoder.decode([SecPerson].self, from: response.data)
+
+                    for person in secPerson {
+
+                        print("\(person.id) : \(person.name)  \(person.email)")
+
+                    }
+                } catch {
+
+                    print(error)
+                }
 
             case .failure(let error):
                 self.nextPageLb.text = "\(error)"

@@ -63,6 +63,3 @@ struct SecPersonCompany: Codable {
     }
 }
 
-extension SecPerson {
-    
-}
