@@ -2,7 +2,7 @@
 
 # 學習路線
   
-    MVVM -> MOYA -> CODABLE
+    MVVM -> MOYA -> CODABLE -> MARKDOWN
 
 ## 2019/04/24 
 ```
@@ -34,4 +34,5 @@
 ```
 1. 以另一種寫法，普寫出 codable model 
 2. for in 的基礎用法變更
+3. 以 markdown 編寫readdme
 ```
