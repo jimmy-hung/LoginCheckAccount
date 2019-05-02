@@ -23,8 +23,8 @@
 ## 2019/04/30 (二) 16:30 complete
 ```
 請教 roy debug 後 成功以 moya 透過 codable 解碼出 api 所傳回之 json 格式資料
-1. 參考     [codable 教學](http://swiftcafe.io/post/codable)
-2. 測試資料 [json 測試資料](https://jsonplaceholder.typicode.com/users) 
+1. 參考[codable 教學](http://swiftcafe.io/post/codable)
+2. 測試資料[json 測試資料](https://jsonplaceholder.typicode.com/users) 
 
 注意 
 1. api 資料格式確認 ( ex :  外層是否還有用陣列包含 )
