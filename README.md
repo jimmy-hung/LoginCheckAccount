@@ -36,3 +36,14 @@
 2. for in 的基礎用法變更
 3. 以 markdown 編寫readdme
 ```
+
+## 2019/05/03 (五)
+```
+1. 建立 singleton - 實作單例
+2. 複習以上
+
+參考資料
+- [資料一](https://medium.com/@terryck/%E5%AF%AB%E5%80%8B%E7%B0%A1%E5%96%AE%E7%9A%84swift-singleton-dc8b4c47b965)
+- [資料二](https://medium.com/@mikru168/ios-singleton-%E5%96%AE%E4%BE%8B-fcabe0710018)
+```
+

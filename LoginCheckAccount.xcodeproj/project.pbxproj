@@ -22,6 +22,7 @@
 		BF258FC22277F466006095B5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FC12277F466006095B5 /* Data.swift */; };
 		BF258FC422783112006095B5 /* ShortData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FC322783112006095B5 /* ShortData.swift */; };
 		BF258FCE227A891C006095B5 /* Data2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FCD227A891C006095B5 /* Data2.swift */; };
+		BF258FD0227C1302006095B5 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF258FCF227C1302006095B5 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		BF258FC12277F466006095B5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		BF258FC322783112006095B5 /* ShortData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortData.swift; sourceTree = "<group>"; };
 		BF258FCD227A891C006095B5 /* Data2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data2.swift; sourceTree = "<group>"; };
+		BF258FCF227C1302006095B5 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		D700124242633FC2A838626C /* Pods_LoginCheckAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginCheckAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				BF258FC12277F466006095B5 /* Data.swift */,
 				BF258FCD227A891C006095B5 /* Data2.swift */,
 				BF258FC322783112006095B5 /* ShortData.swift */,
+				BF258FCF227C1302006095B5 /* Singleton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF258FB02270136D006095B5 /* User.swift in Sources */,
+				BF258FD0227C1302006095B5 /* Singleton.swift in Sources */,
 				BF258F9C226FFD80006095B5 /* ViewController.swift in Sources */,
 				BF258FB8227030EB006095B5 /* extension+string.swift in Sources */,
 				BF258FC02271AD2E006095B5 /* Moya.swift in Sources */,

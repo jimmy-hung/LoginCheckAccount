@@ -5,6 +5,15 @@
 //  Created by 洪立德 on 2019/4/30.
 //  Copyright © 2019 洪立德. All rights reserved.
 //
+/*
+ 先宣告api裡資料的變數名稱
+ 撰寫個別的codingkeys與之對應的變數
+ 若資料有多層級，亦需要逐層拆解分析 - 使用 enum 做分層處理
+ 若是api資料格式不符合常使用之駝峰式命名，可在 enum codingkeys 裡的 case 另行轉換相與之相符
+ 
+ extension 編寫相對應的解碼處理先拆封外層，再往巢狀內層處理
+ */
+
 
 import Foundation
 

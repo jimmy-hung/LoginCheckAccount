@@ -5,6 +5,11 @@
 //  Created by 洪立德 on 2019/5/2.
 //  Copyright © 2019 洪立德. All rights reserved.
 //
+/*
+ 先宣告api裡資料的變數名稱
+ 若是api資料格式不符合常使用之駝峰式命名，可在 enum codingkeys 裡的 case 另行轉換相與之相符
+ 
+ */
 
 import Foundation
 

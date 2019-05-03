@@ -58,6 +58,8 @@ class ViewController: UIViewController {
         
         accountTxt.text = "123456@gmail.com"
         passwordTxt.text = "12345678"
+        
+        Singleton.shared.trySingleton()
     }
 
     @objc func getNoti(noti:Notification){

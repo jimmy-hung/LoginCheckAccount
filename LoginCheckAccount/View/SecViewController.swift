@@ -11,7 +11,9 @@ import Moya
 
 class SecViewController: UIViewController {
 
-    @IBOutlet weak var nextPageLb: UILabel!
+    @IBOutlet weak var allBtn: UIButton!
+    @IBOutlet weak var apartBtn: UIButton!
+    @IBOutlet weak var secAllBtn: UIButton!
     
     //MARK: Moya
     var useMoya = MoyaProvider<UseService>()
@@ -21,61 +23,31 @@ class SecViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         moyaTool()
+        Singleton.shared.trySingleton()
     }
     
     //MARK: Moya
     func moyaTool() {
-        
-//        var json : NSArray?
-        
+                
         useMoya.request(.searchData) { (result) in
             
             switch result{
             case .success(let response):
                 
                 let decoder = JSONDecoder()
-//                let json = try! JSONSerialization.jsonObject(with: response.data, options: [])
-//                self.nextPageLb.text = "\(json)"
-                
-                // 完整
-//                do {
-//                    let persons = try decoder.decode([Person].self, from: response.data)
-//
-//                    for everyone in persons {
-//
-//                        print(everyone.id, everyone.email, everyone.city)
-//                    }
-//                } catch {
-//                    print(error)
-//                }
-                
-                // 部分
-//                do {
-//                    let humans = try decoder.decode([Human].self, from: response.data)
-//
-//                    print(humans)
-//
-//                } catch {
-//                  print(error)
-//                }
-                
-                // 第二種寫法
-                do {
 
-                    let secPerson = try decoder.decode([SecPerson].self, from: response.data)
-
-                    for person in secPerson {
-
-                        print("\(person.id) : \(person.name)  \(person.email)")
-
+                    // 完整
+                    do {
+                        let persons = try decoder.decode([Person].self, from: response.data)
+                        
+                        for everyone in persons {
+                            
+                            print(everyone.id, everyone.email, everyone.city)
+                        }
+                    } catch {
+                        print(error)
                     }
-                } catch {
-
-                    print(error)
-                }
-
             case .failure(let error):
-                self.nextPageLb.text = "\(error)"
                 print(error)
             }
         }
